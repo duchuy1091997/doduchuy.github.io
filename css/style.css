@@ -1,0 +1,233 @@
+*{margin:0;padding:0; }
+
+.navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus {
+    background-color: white;
+}
+
+.item {
+    padding-top: 97px;
+    text-align: center;
+    margin: auto;
+}
+
+.logo img.img-responsive {
+    margin: auto;
+    width: 50px;
+    margin-top: -15px;
+}
+
+span.swiper-pagination-bullet {
+    background: white;
+    opacity: unset;
+}
+
+span.swiper-pagination-bullet.swiper-pagination-bullet-active {
+    background: #29b6f6;
+}
+
+.chuthich {
+    padding-top: 0;
+    background: #29b6f6;
+    color: white;
+    display: block;
+    border: white solid 1px;
+    width: 500px;
+    margin: auto;
+    border-radius: 11px;
+}
+
+
+iframe {
+    display: block;
+}
+
+.information img.img-responsive.img-circle {
+    width: 55%;
+    margin: auto;
+    padding-bottom: 30px;
+}
+
+section#skills {
+    background: #f9f8f8;
+}
+
+
+section {
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+i.fa.fa-instagram {}
+
+section#contact {
+    padding-bottom: 20px;
+    background: #dedbdb30;
+}
+
+.item.active {
+    width: 100%;
+    height: 200px;
+}
+
+.carousel-inner {
+    width: 100%;
+    height: 250px;
+}
+
+div#myCarousel {
+    height: 326px;
+    width: 100%;
+}
+
+
+footer .footer-lower {
+    background: #0da4e8;
+    padding-top: 10px;
+}
+
+h1 {
+    padding-bottom: 30px;
+}
+
+.contact button.btn.btn-primary {
+    margin-top: 10px;
+    background: #29b6f6;
+    border: none;
+    width: 100px;
+    height: 40px;
+    font-size: 20px;
+}
+
+
+
+input.form-control {
+    height: 55px;
+}
+
+section.googleMap {
+    padding-top: 0px;
+    padding-bottom: 0px;
+}
+
+section.products {
+    background: url(../img/newyork.jpg);
+    background-attachment: fixed;
+    background-position: center;
+    background-size: contain;
+    color: white;
+}
+
+
+section.information {
+    padding-top: 100px;
+    background: url(../img/hinh1.jpg);
+    color: white;
+    background-attachment: fixed;
+}
+
+ul.list-inline.social-network a {
+    color: white;
+}
+
+ul.list-inline.social-network a:hover {
+    color: #0da4e8;
+}
+
+ul.list-inline.social-network {
+    font-size: 27px;
+    \: white;
+    padding-left: 48%;
+    padding-top: 15px;
+}
+
+ul.list-inline.social-network {}
+
+
+footer {
+    background: #29b6f6;
+    color: white;
+}
+
+body{
+    font-family: 'Roboto Slab', serif;
+}
+.navbar-default .navbar-nav > li > a {
+    color: white;
+    font-size: 20px;
+}
+
+.navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus {
+    color: #29b6f6;
+    background: white;
+}
+
+.navbar-default .navbar-nav > li > a:hover {
+    background: white;
+    color: #29b6f6;
+}
+
+
+nav.navbar.navbar-default.top-menu {
+    background: #29b6f6;
+    border: none;
+}
+
+/*.carousel-inner {
+    padding-top: 67px;
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+}*/
+ .carousel-control.right, .carousel-control.left {
+      background-image: none;
+      color: #29b6f6;
+  }
+  .carousel-indicators li {
+      border-color: #29b6f6;
+  }
+  .carousel-indicators li.active {
+      background-color: #29b6f6;
+  }
+  .item h4 {
+      margin: 70px 0;
+  }
+.swiper-container {
+  width: 100%;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+.swiper-slide {
+  background-position: center;
+  background-size: cover;
+  height: 500px;
+}
+.slideanim {visibility:hidden;}
+  .slide {
+      animation-name: slide;
+      -webkit-animation-name: slide;
+      animation-duration: 1s;
+      -webkit-animation-duration: 1s;
+      visibility: visible;
+  }
+  @keyframes slide {
+    0% {
+      opacity: 0;
+      transform: translateY(70%);
+    } 
+    100% {
+      opacity: 1;
+      transform: translateY(0%);
+    }
+  }
+  @-webkit-keyframes slide {
+    0% {
+      opacity: 0;
+      -webkit-transform: translateY(70%);
+    } 
+    100% {
+      opacity: 1;
+      -webkit-transform: translateY(0%);
+    }
+  }
+ 
+
